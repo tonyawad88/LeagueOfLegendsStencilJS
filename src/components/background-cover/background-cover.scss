@@ -1,0 +1,19 @@
+:host {
+  display: block; /* by default, custom elements are display: inline */
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+#background-img{
+  height:100%;
+  background-position: 100% !important;
+  background-size: cover !important;
+  z-index:10;
+}
+.background-dark-overlay{
+  height: 100%;width: 100%;
+  background: rgba(0,0,0,0.6);
+}

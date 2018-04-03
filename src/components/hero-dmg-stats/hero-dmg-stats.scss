@@ -1,0 +1,17 @@
+hero-dmg-stats {
+  display: block; /* by default, custom elements are display: inline */
+
+  .stats-wrapper{display:flex;flex-wrap: wrap;flex-direction: row;}
+  .stat{
+    min-width: 300px;
+    max-width: 600px;
+    flex-basis: auto; /* default value */
+    flex-grow: 1;
+
+    display:flex;flex-direction:row;
+    justify-content: flex-start;
+    align-items: center;
+    img{height:30px;width:30px;}
+    p{padding:10px;font-size:14px;}
+  }
+}

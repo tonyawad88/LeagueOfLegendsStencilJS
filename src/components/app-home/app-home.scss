@@ -1,0 +1,14 @@
+app-home {
+  ion-content{
+    background:url('./assets/img/bg1-optimized.jpg'); 
+    background-size: cover;
+    background-position: 44%;
+  }
+  ion-scroll {
+    padding: 15px;
+    background:transparent !important; 
+    background-color:rgba(0,0,0,0.5) !important;
+
+  }
+  
+}

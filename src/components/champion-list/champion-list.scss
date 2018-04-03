@@ -1,0 +1,11 @@
+:host {
+  display: block; /* by default, custom elements are display: inline */
+}
+champion-list{
+  ion-card{margin:10px !important;}
+  .heroes-tiles {display:flex;justify-content: flex-start;flex-direction: row;flex-wrap: wrap;}
+  .thumbnail-card{width:130px;}
+  .thumbnail-card ion-card-title{font-size:14px;}
+  .thumbnail-card img:hover{width:150px;-webkit-transition: width 1s;transition: width 1s;}
+}
+  
