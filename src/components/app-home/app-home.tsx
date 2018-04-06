@@ -45,7 +45,12 @@ export class AppHome {
       <ion-page>
         <ion-header>
           <ion-toolbar color='dark'>
-            <ion-title>League of Legends Heroes ({this.total})</ion-title>
+            <ion-title>
+              League of Legends Heroes ({this.total})
+            </ion-title>
+            <ion-buttons slot="end">
+              <ion-button color="secondary">0.1</ion-button>
+            </ion-buttons>
           </ion-toolbar>
         </ion-header>
         <ion-header>

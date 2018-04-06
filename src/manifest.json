@@ -1,13 +1,13 @@
 {
-  "name": "Ionic PWA Toolkit",
-  "short_name": "Ionic PWA",
+  "name": "League of Legends Heroes Stencil",
+  "short_name": "LoL Stencil",
   "start_url": "/",
   "display": "standalone",
   "icons": [{
-    "src": "assets/icon/icon.png",
+    "src": "assets/icon/icon2.png",
     "sizes": "512x512",
     "type": "image/png"
   }],
-  "background_color": "#488aff",
-  "theme_color": "#488aff"
+  "background_color": "#4c4c4c",
+  "theme_color": "#4c4c4c"
 }

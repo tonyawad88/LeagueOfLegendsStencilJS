@@ -34,6 +34,7 @@ export class MyApp {
 
   @Listen('body:ionToastWillDismiss')
   reload() {
+    navigator.serviceWorker.getRegistration().then(x=> x.update());
     window.location.reload();
   }
 

@@ -1,7 +1,7 @@
 class Heroes{
 
-    championsUrl:string = "http://ddragon.leagueoflegends.com/cdn/6.24.1/data/en_US/champion.json";
-    imagesUrlPrefix:string = "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/champion/";
+    championsUrl:string = "https://ddragon.leagueoflegends.com/cdn/6.24.1/data/en_US/champion.json";
+    imagesUrlPrefix:string = "https://ddragon.leagueoflegends.com/cdn/6.24.1/img/champion/";
 
     heroes:Array<Champion> = new Array<Champion>();
 
